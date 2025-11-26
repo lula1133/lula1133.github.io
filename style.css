@@ -1,0 +1,81 @@
+body {
+  margin: 0; /* saca márgenes por defecto */
+  height: 100vh; /* ocupa toda la altura de la pantalla */
+  background-image: url(img/cielo.jpg); /* nombre de tu imagen */
+  background-size: cover;    /* hace que cubra toda la pantalla */
+  background-position: center; 
+}
+
+#titulo {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 3em;
+    text-align: center;
+    background-color: rgb(28, 3, 66);
+    color:rgb(158, 124, 214);
+    border-radius: 66%;
+    border-bottom: 5px solid rgb(124, 124, 124);
+    }
+
+.container { 
+  width: 60%;
+  min-height: 100px;
+  background-color: rgba(103, 35, 155, 0.5);
+  padding: 20px;
+  border-radius: 33px;
+  margin: 20px auto;
+  text-align: center;
+  display: flex;
+  justify-content: center; /* centra en horizontal */
+  align-items: center;     /* centra en vertical */
+}
+
+.about { font-size: 33px;
+    color:rgb(17, 0, 43);
+    display: flex;             /* activa layout en fila */
+  align-items: center;       /* centra verticalmente */
+  gap: 20px;                 /* espacio entre foto y texto */
+  background-color: rgba(255,255,255,0.7);
+  padding: 20px;
+  border-radius: 10px;
+ }
+
+.about-img {
+  width: 140px;              /* tamaño de la foto */
+  border-radius: 22%;        /* redonda (opcional) */
+}
+
+.hardskills {
+    font-size: 33px;
+    color:rgb(17, 0, 43);
+    background-color: rgba(255,255,255,0.7);
+     display: flex;             /* activa layout en fila */
+ text-align: justify;
+  gap: 20px;                 /* espacio entre foto y texto */
+}
+
+ .hardskills-img {
+  width: 380px;  
+ }
+ 
+
+.softskills {
+    font-size: 33px;
+    color:rgb(17, 0, 43);
+    background-color: rgba(255,255,255,0.7);
+ }
+
+ .softskills-img {
+  width: 330px;  
+ }
+ 
+.descript {
+  font-size: 27px;
+    color:rgb(17, 0, 43);
+    background-color: rgba(255,255,255,0.7);
+    padding: 20px;
+  border-radius: 10px;
+}
+
+#footer {
+     background-color: rgb(158, 124, 214);
+}
